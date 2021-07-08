@@ -3,6 +3,7 @@
     --footer-text-color: rgb(111,111,111);
     --nav-text-color: rgb(34,34,34);
     --lang-text-color: rgb(26,14,171);
+    --input-shadow:0px 1px 8px -3px rgba(0,0,0,0.5);
 }
 
 body{
@@ -63,12 +64,30 @@ div{
     border-radius: 20px;
     height:4vh;
     position: relative;
-    bottom:5vh;
+    bottom:6vh;
+    
 
 }
 
-#search:focus{
+#search:focus, #search:hover{
     outline: none;
+    box-shadow: var(--input-shadow);
+}
+
+#buttons{
+    margin-top:0;
+}
+
+button{
+    padding:10px;
+    background-color: rgb(239,239,239);
+    border-color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    box-shadow: var(--input-shadow)
 }
 
 
