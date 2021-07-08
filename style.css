@@ -8,6 +8,8 @@
 body{
     font-family: arial, sans-serif;
     font-size:13px;
+    text-align: center;
+
 }
 
 
@@ -33,11 +35,24 @@ main{
 
 #google{
     transform: scale(0.5);
+    margin-top: 15.6vh;
 
-    /*
-    position: relative;   
-    top:15.6vh;
-    */
+
+    
+    
+}
+
+#inputs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search{
+    width:20%;
+    display:block;
 }
 
 #languages > a{
@@ -69,15 +84,11 @@ a:hover{
     width:100%;
 }
 
-input{
-    display: block;
-}
+
 
 footer{
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
     font-size:15px;
-
-
 }
 
