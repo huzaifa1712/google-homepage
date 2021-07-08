@@ -30,9 +30,9 @@ main{
 }
 
 #google{
-    width:15%;
-    
-    
+    width:16%;
+    position: relative;   
+    top:21vh;
 }
 
 nav > a{
