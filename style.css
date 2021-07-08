@@ -9,6 +9,8 @@ body{
     font-family: arial, sans-serif;
     font-size:13px;
     text-align: center;
+    position: relative;
+    min-height:100vh;
 
 }
 
@@ -27,6 +29,10 @@ nav{
 
 main{
     
+}
+
+div{
+    margin-top:20px;
 }
 
 #profile{
@@ -54,6 +60,10 @@ main{
     width:20%;
     display:block;
 }
+
+
+
+
 
 #languages > a{
     color: rgb(26,14,171);
@@ -89,6 +99,11 @@ a:hover{
 footer{
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
-    font-size:15px;
+    position: absolute;
+    width:100%;
+    bottom:0;
+
+
 }
+
 
