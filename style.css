@@ -7,10 +7,6 @@ body{
     font-family: arial, sans-serif;
 }
 
-img{
-    width:15%;
-  
-}
 
 footer{
     background-color: var(--footer-color);
@@ -24,8 +20,19 @@ nav{
 
 }
 
+main{
+    display:flex;
+    justify-content: center;
+}
+
 #profile{
     width:120%;
+}
+
+#google{
+    width:15%;
+    
+    
 }
 
 nav > a{
