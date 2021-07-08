@@ -1,3 +1,16 @@
+:root{
+    --footer-color: rgb(242,242,242);
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+
 img{
-    width: 15%;
+    width:15%;
+  
+}
+
+footer{
+    background-color: var(--footer-color);
 }
