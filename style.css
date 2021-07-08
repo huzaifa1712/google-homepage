@@ -74,7 +74,38 @@ div{
 
 #footer-links a{
     color: var(--footer-text-color);
+    font-size:15px;
 }
+
+#footer-links{
+   
+    
+}
+
+#footer-links-left{
+    float:left;
+    padding:3px;
+    margin-top:0;
+    margin-left:-3px;
+    margin-bottom: 10px;
+}
+
+#footer-links-left a{
+    margin-right:1.2vw;
+    margin-left:1vw;
+}
+
+#footer-links-right{
+    float:right;
+    margin-top:0;
+    margin-right:2vw;
+}
+
+#footer-links-right a{
+    margin-right:1.2vw;
+}
+
+
 
 a{
     font-size:13px;
@@ -103,13 +134,21 @@ footer{
     width:100%;
     bottom:0;
     left:0;
+
 }
 
 #location{
-    height:50%;
     border-bottom: 1px solid rgb(217,220,224);
     display:flex;
-    align-items: center;
+    font-size:15px;
+    margin-left:1vw;
+
+}
+
+
+
+footer div{
+    padding-left:10px;
 }
 
 
