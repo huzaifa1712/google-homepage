@@ -57,15 +57,20 @@ div{
 
 
 #search{
-    width:30%;
+    width:30vw;
     display:block;
     border: 1px solid black;
     border-radius: 20px;
     height:4vh;
     position: relative;
-    bottom:4.5vh;
+    bottom:5vh;
 
 }
+
+#search:focus{
+    outline: none;
+}
+
 
 
 
@@ -155,4 +160,14 @@ footer div{
     padding-left:10px;
 }
 
+#search-div{
+    position:relative;
+}
+/* #search-icon{
+    width:5%;
+    position: absolute;
+    left:2%;
+    bottom:110%;
+    z-index:2;
+} */
 
