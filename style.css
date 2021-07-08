@@ -24,6 +24,10 @@ nav{
 
 }
 
+#profile{
+    width:120%;
+}
+
 nav > a{
     margin-right:18px;
     font-size:13px;
