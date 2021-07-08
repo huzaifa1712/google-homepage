@@ -25,11 +25,15 @@ nav{
 }
 
 nav > a{
-    margin-right:20px;
+    margin-right:18px;
     font-size:13px;
     color: var(--nav-text-color);
     text-decoration: none;
 
+}
+
+nav > a:hover{
+    text-decoration: underline;
 }
 
 .icon{
