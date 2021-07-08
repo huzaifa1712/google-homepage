@@ -14,3 +14,22 @@ img{
 footer{
     background-color: var(--footer-color);
 }
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:20px;
+
+}
+
+nav > a{
+    margin-right:20px;
+    font-size:13px;
+}
+
+.icon{
+    width:100%;
+}
+
+
