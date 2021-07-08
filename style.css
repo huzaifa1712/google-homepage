@@ -9,8 +9,9 @@ body{
     font-family: arial, sans-serif;
     font-size:13px;
     text-align: center;
-    position: relative;
+    position: rel;
     min-height:100vh;
+    overflow: hidden;
 
 }
 
@@ -33,6 +34,7 @@ main{
 
 div{
     margin-top:20px;
+
 }
 
 #profile{
@@ -94,16 +96,20 @@ a:hover{
     width:100%;
 }
 
-
-
 footer{
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
     position: absolute;
     width:100%;
     bottom:0;
+    left:0;
+}
 
-
+#location{
+    height:50%;
+    border-bottom: 1px solid rgb(217,220,224);
+    display:flex;
+    align-items: center;
 }
 
 
